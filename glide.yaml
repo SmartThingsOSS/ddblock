@@ -1,5 +1,5 @@
 package: github.com/SmartThingsOSS/ddblock
 import:
-- package: github.com/zencoder/ddbsync
+- package: github.com/SmartThingsOSS/ddbsync
 - package: gopkg.in/alecthomas/kingpin.v2
   version: ^2.2.3
