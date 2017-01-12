@@ -21,13 +21,17 @@ GOOS=linux go build
 
 ## Setup
 
-Create a DynamoDB table with a primary string key called `Name`. To acquire a lock called "mylock" in a table called "mytable":
+Create a DynamoDB table with a primary string key called `Name`.
 
 ## Usage
 
+To acquire a lock called "mylock" in a table called "mytable":
+
 `./ddblock mytable mylock`
 
-By default the lock will last for 10 minutes. To unlock when you're done:
+By default the lock will last for 10 minutes. 
+
+To unlock when you're done:
 
 `./ddblock -u mytable mylock`
 
