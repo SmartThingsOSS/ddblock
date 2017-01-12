@@ -15,6 +15,7 @@ go build
 
 To build a linux binary from another platform:
 ```
+glide install
 GOOS=linux go build
 ```
 
