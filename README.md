@@ -37,4 +37,6 @@ To unlock when you're done:
 
 To acquire a lock before running a command, run the command, and then release the lock:
 
-`./ddblock mytable mylock && ./my_command ; ./ddblock -u mytable mylock`
+```
+./ddblock mytable mylock && ( ./my_command ; ./ddblock -u mytable mylock )
+```
