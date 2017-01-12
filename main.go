@@ -19,6 +19,7 @@ var (
 )
 
 func main() {
+	kingpin.Version("0.0.1")
 	kingpin.Parse()
 
 	m := ddbsync.NewMutex(
