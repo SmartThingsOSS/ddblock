@@ -23,6 +23,8 @@ GOOS=linux go build
 
 Create a DynamoDB table with a primary string key called `Name`. To acquire a lock called "mylock" in a table called "mytable":
 
+## Usage
+
 `./ddblock mytable mylock`
 
 By default the lock will last for 10 minutes. To unlock when you're done:
